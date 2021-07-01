@@ -1,0 +1,123 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+/*background pictures*/
+#page1 {
+ background-image: url(https://images.unsplash.com/photo-1564121211835-e88c852648ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVudGFsJTIwaGVhbHRofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60); 
+}
+
+#page2 {
+background-image: url(https://images.unsplash.com/photo-1564682895970-0dbb72e18d97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#page3 {
+background-image: url(https://images.unsplash.com/photo-1494599948593-3dafe8338d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* STYLE TEXT */
+.centered {
+  text-align: center;
+}
+
+#list {
+  margin-left: 380px;
+  margin-right: 350px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(245, 61, 61);
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(245, 61, 61);
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.solid {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.red {
+  margin-top: 15px;
+}
+
+#ice {
+  text-align: center;
+}
+
+#wow {
+  text-align: center;
+}
+
+#source {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.middle {
+  text-align: center;
+}
+
+#message {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+nav {
+font-style: italic;
+text-align: center;
+background-color: rgb(250, 119, 32);
+padding: 0.8em;
+}
+
+li {
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+li a:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+ul{
+  list-style-type: square;
+  overflow: hidden;
+
+}
+/* STYLE BUTTONS */
+#myButton {
+  padding: 15px;
+  background-color: red;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
